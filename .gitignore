@@ -1,0 +1,7 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# avoid problems with github-pages gem
+Gemfile.lock
