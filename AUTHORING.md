@@ -14,7 +14,7 @@ To use this project, you'll need the following things installed on your machine.
 
 ## Usage
 
-Since this is a Jekyll theme, every command described in the [Jekyll documentation](https://jekyllrb.com/docs/) is avaialable.
+Since this is a Jekyll theme, every command described in the [Jekyll documentation](https://jekyllrb.com/docs/) is available.
 
 ### Development
 
