@@ -1,6 +1,6 @@
 # LongToothGamer.com
 
-This is the source code for the [LongToothGamer.com](https://www.longtoothgamer.com) website.
+This is the source code for the [LongToothGamer.com](https://longtoothgamer.com) website.
 
 -----
 
