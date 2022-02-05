@@ -292,3 +292,12 @@ blockquote {
     transform: translate3d(0, 0, 0);
   }
 }
+
+// TOC
+ul.toc {
+    list-style: none;
+}
+ul.toc li {
+    font-family: monospace;
+    white-space: pre;
+}
