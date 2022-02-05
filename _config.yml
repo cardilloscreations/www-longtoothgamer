@@ -49,13 +49,9 @@ lang: en-US
 # Header Title
 header-title: Long Tooth Gamer
 # Header Tagline
-header-tagline: Gaming and Tech Tips for Sensible Adults
+header-tagline: Technology and Gaming Info for Sensible Adults
 
-#
-# This is your email adress, contact from send here all emails from contact section
-# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
-# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
-#
+# Main contact email address
 email: hello@longtoothgamer.com
 
 ####################################
@@ -75,15 +71,17 @@ tiktok: "https://www.tiktok.com/@longtoothgamer"
 # About Blog Author Widget
 #
 about-widget:
-  author-avatar: avatar-02.jpg
+  author-avatar: Ray-Headshot-Simple.jpg
   author-name: Ray Cardillo
-  author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+  author-tagline: Long Tooth Gamer
+  author-info: >
+    A professional Software Engineer and lifelong gamer who enjoys helping
+    others embrace technology and gaming for good.
   author-social-links:
-    youtube: "#"
-    facebook: "#"
-    instagram: "#"
-    twitter: "#"
+    youtube: "https://www.youtube.com/channel/UC8nJI40ZJ2C682oAsB16gCA"
+    facebook: "https://www.facebook.com/LongToothGamer/"
+    instagram: "https://www.instagram.com/longtoothgamer/"
+    twitter: "https://twitter.com/longtoothgamer"
 
 #####################################
 #############   About   #############
@@ -91,16 +89,15 @@ about-widget:
 about-title: About Me
 about-description-short: Long Tooth Gamer is produced by Ray Cardillo.
 about-description-long: >
-  I'm a content creator who enjoys helping adults with gaming and technology.
-  I've been working with computers as long as I can remember and have been a
-  software engineer for over 30 years and counting. Aside from general advice,
-  I particularly enjoy helping older adults embrace technology.
+  I'm a content creator who enjoys helping older adults learn about computers,
+  technology and gaming. I've been working with technology as long as I can
+  remember and I have been a professional Software Engineer for over 30 years
+  and counting. I particularly enjoy helping senior adults embrace technology.
 
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+blog-title: My Blog
 
 #####################################
 #############   Footer   ############

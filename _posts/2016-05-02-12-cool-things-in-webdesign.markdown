@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "12 Cool tips in design"
-tagline: Single Page
+subtitle: Some Subtitle
 date: 2016-05-02 15:32
 categories: [Web Design]
 tags: [Web, Design, Tips & Tricks, Tips]

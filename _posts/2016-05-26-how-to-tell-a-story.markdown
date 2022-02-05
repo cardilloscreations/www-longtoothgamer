@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to tell a story"
-tagline: Single Page
+subtitle: Some Subtitle
 date: 2016-05-26 13:23
 categories: [Storyline]
 tags: [Storyline, How To, Tips]

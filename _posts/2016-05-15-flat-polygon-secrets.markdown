@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Flat polygon secrets"
-tagline: Single Page
+subtitle: Some Subtitle
 date: 2016-05-15 10:43
 categories: [Graphic Design]
 tags: [Flat, Graphic, Design, Tips, Polygon]

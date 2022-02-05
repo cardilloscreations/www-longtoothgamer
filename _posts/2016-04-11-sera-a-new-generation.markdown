@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lion Wallpaper Design"
-tagline: Single Page
+subtitle: Some Subtitle
 date: 2016-04-11 12:51
 categories: [Graphic Design]
 tags: [Graphic, Design, Photoshop, Wallpaper]
