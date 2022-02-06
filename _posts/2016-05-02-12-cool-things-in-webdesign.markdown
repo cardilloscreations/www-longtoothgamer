@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "12 Cool tips in design"
-subtitle: Some Subtitle
+subtitle: Placeholder - Content Coming Soon
 date: 2016-05-02 15:32
 categories: [Web Design]
 tags: [Web, Design, Tips & Tricks, Tips]
 image: img-01.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum condimentum justo, rhoncus ullamcorper orci dapibus eget. Aliquam id efficitur lacus. Donec ac mattis ante. Nam vehicula turpis augue. Aliquam erat volutpat.
+This is a placeholder while I get the site setup. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum condimentum justo, rhoncus ullamcorper orci dapibus eget. Aliquam id efficitur lacus. Donec ac mattis ante. Nam vehicula turpis augue. Aliquam erat volutpat.
 
 Aliquam fermentum ornare iaculis. Proin vehicula nisi sed vestibulum consectetur. Praesent placerat enim eu justo euismod, vel consequat ligula mollis. Quisque mollis, lacus sed imperdiet finibus, risus felis tempor sapien, in suscipit sem nulla bibendum magna. Curabitur venenatis condimentum ipsum, at hendrerit dui dictum quis. In sodales in ligula eget venenatis. Suspendisse imperdiet congue odio at tempus. Donec pellentesque cursus semper. Praesent vel augue sem. Integer nec diam consequat, sollicitudin urna eu, placerat justo. Donec in odio et tellus lobortis vehicula at pellentesque nisi.
 
