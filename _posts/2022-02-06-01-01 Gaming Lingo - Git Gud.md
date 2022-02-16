@@ -8,16 +8,8 @@ tags: [git gud,get good,get gud,lingo,gamer,gaming,terms,definition,meaning,lang
 ytid: 3bWEaFuknMM
 ---
 
-{% comment %}
-Reminders: Copy and paste the full YouTube description here convenience.
-- Remove the CHAPTERS block because that's only needed by YouTube.
-- Add <> around links because I've enabled kramdown markdown processing.
-- Be sure to use "━━━━━━━━━━━━━━━━━━━━" because that's used to mark the excerpt.
-- Fix the excerpt section if needed (e.g., playlist links, etc).
-{% endcomment %}
-
-<div class="youtube">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWEaFuknMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/3bWEaFuknMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <p class="premono" markdown="1">

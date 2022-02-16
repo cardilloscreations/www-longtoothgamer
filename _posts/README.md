@@ -2,6 +2,15 @@
 
 A collection of reminders when creating new posts.
 
+## Reminders
+
+- Copy and paste the full YouTube description for convenience.
+- Remove the CHAPTERS block because that's only needed by YouTube.
+- Add <> around links because I've enabled kramdown markdown processing.
+- Be sure to use "━━━━━━━━━━━━━━━━━━━━" because that's used to mark the excerpt.
+- Fix the excerpt section if needed (e.g., playlist links, etc).
+- Use the `embed-responsive` classes for the YouTube `iframe`.
+
 
 ## Resources
 
