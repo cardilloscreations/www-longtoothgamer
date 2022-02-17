@@ -1,16 +1,12 @@
 ---
-layout: post
+layout: youtube-post
 title:  'What Does "Git Gud" Mean? Why is it Controversial?'
 subtitle: "Gaming Lingo Series"
 date: 2022-02-10
 categories: [Gaming]
 tags: [git gud,get good,get gud,lingo,gamer,gaming,terms,definition,meaning,language,culture,git,gud,good,toxic,be kind,bullying,game lingo]
-ytid: 3bWEaFuknMM
+youtubeid: 3bWEaFuknMM
 ---
-
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/3bWEaFuknMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 <p class="premono" markdown="1">
 Learn about the gaming term "GIT GUD" and what the controversy is all about. I describe the meaning of the phrase and explain why some hate it so much.

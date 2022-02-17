@@ -1,16 +1,12 @@
 ---
-layout: post
+layout: youtube-post
 title:  'What is B2P, P2P, F2P, P2W? What’s the best value?'
 subtitle: "Gaming Lingo Series"
 date: 2022-02-12
 categories: [Gaming]
 tags: [lingo,gamer,gaming,terms,definition,meaning,language,culture,git,game lingo,b2p,p2p,f2p,p2w,freemium,dlc,subscription,monetization,buy to play,pay to play,free to play,pay to win,whale,paywall,pay wall,best value]
-ytid: UoICbqE8kLY
+youtubeid: UoICbqE8kLY
 ---
-
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/UoICbqE8kLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 <p class="premono" markdown="1">
 Learn about B2P, P2P, F2P, Freemium, and how to get the best value for your money. I describe the meaning of each phrase and how it relates to your gaming experience.
@@ -37,4 +33,5 @@ This is a quick explainer video that is part of my [Game Lingo Series Playlist](
   ➤ <https://www.protocol.com/gaming-subscriptions-xbox-game-pass>
   ➤ <https://forums.mmorpg.com/discussion/404321/free-market-gaming-p2p-p2w-b2p-f2p-etc-how-it-works-in-the-real-world/p2>
 ━━━━━━━━━━━━━━━━━━━━
-#b2p #p2p #f2p #p2w #whale #paywall #gaming #gamer #gamelingo #longtoothgamer</p>
+#b2p #p2p #f2p #p2w #whale #paywall #gaming #gamer #gamelingo #longtoothgamer
+</p>

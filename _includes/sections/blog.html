@@ -36,10 +36,10 @@
           <header class="article-header">
             <div class="img-wrap">
               <a href="{{ site.baseurl }}{{ post.url }}">
-              {% if post.ytid %}
-              <img src="https://img.youtube.com/vi/{{ post.ytid }}/mqdefault.jpg"
+              {% if post.youtubeid %}
+              <img src="https://img.youtube.com/vi/{{ post.youtubeid }}/mqdefault.jpg"
                alt="Article YouTube Thumbnail"
-               onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ post.ytid }}/maxresdefault.jpg';">
+               onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ post.youtubeid }}/maxresdefault.jpg';">
               {% else if post.image %}
               <img src="images/blog/{{ post.image }}" alt="Article Blog Image">
               {% endif %}
@@ -63,7 +63,7 @@
               <div class="year">{{ post.date | date: "%Y" }}</div>
             </div>
             <div class="article-text-sm">
-              <p>{{ post.content | strip_html | split: "━━━━━━━━━━━━━━━━━━━━" | first | truncatewords:50 }}</p>
+              <p>{{ post.excerpt | strip_html | truncatewords:50 }}</p>
             </div>
             <div class="show-more">
               <a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a>

@@ -14,10 +14,10 @@ title: Long Tooth Gamer <strong>Blog</strong>
       <header class="article-header">
         <div class="img-wrap">
           <a href="{{ site.baseurl }}{{ post.url }}">
-          {% if post.ytid %}
-          <img src="https://img.youtube.com/vi/{{ post.ytid }}/maxresdefault.jpg"
+          {% if post.youtubeid %}
+          <img src="https://img.youtube.com/vi/{{ post.youtubeid }}/maxresdefault.jpg"
            alt="Article YouTube Thumbnail"
-           onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ post.ytid }}/sddefault.jpg';">
+           onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ post.youtubeid }}/sddefault.jpg';">
           {% else if post.image %}
           <img src="images/blog/{{ post.image }}" alt="Article Blog Image">
           {% endif %}
@@ -41,7 +41,7 @@ title: Long Tooth Gamer <strong>Blog</strong>
           <div class="year">{{ post.date | date: "%Y" }}</div>
         </div>
         <div class="article-text-md">
-          {{ post.content | strip_html | split: "━━━━━━━━━━━━━━━━━━━━" | first | truncatewords:75 }}
+          {{ post.excerpt | strip_html | truncatewords:75 }}
         </div>
         <div class="show-more">
           <a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a>

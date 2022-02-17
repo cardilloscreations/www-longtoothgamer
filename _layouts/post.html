@@ -8,7 +8,7 @@ layout: page
 
     <!-- Article Header -->
     <header class="article-header">
-      {% if post.image %}
+      {% if page.image %}
       <div class="img-wrap">
         <img src="{{ site.baseurl }}/images/blog/{{ page.image }}" alt="Article Blog Image">
       </div>
@@ -21,7 +21,7 @@ layout: page
 
     <!-- Article Content -->
     <div class="article-content">
-      {{ page.content }}
+      {{ content }}
     </div>
 
     <!-- Article Tool Boxes -->
