@@ -2,6 +2,7 @@
 layout: legal
 title: Privacy Policy
 date: 2022-02-05
+permalink: "/privacy"
 ---
 
 <p>

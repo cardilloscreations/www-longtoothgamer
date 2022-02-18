@@ -4,7 +4,7 @@ title:  'Hidden Samsung Eye Glass App'
 subtitle: "Shorts"
 date: 2022-02-17
 categories: [Mobile]
-tags: [magnifier,glasses,vision,eye sight,hack,tip,accessibility,zoom,shorts,sight,android,samsung,galaxy,fine print]
+tags: [android, accessibility]
 youtubeid: TE-_TzJPEtI
 ---
 

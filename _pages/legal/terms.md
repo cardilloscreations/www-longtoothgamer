@@ -2,6 +2,7 @@
 layout: legal
 title: Terms of Use
 date: 2022-02-05
+permalink: "/terms"
 ---
 
 <p><strong>AGREEMENT TO TERMS</strong></p>

@@ -16,25 +16,12 @@ baseurl: ""
 # the base hostname & protocol for your site
 url: "https://longtoothgamer.com"
 
+include: ['_pages']
+
 ####################################
 ######   Optional Features    ######
 ####################################
 smooth-scroll: false
-
-####################################
-###########   Plugins    ###########
-####################################
-plugins:
-  - jekyll-archives
-
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: "archive"
-  permalinks:
-    category: "/category/:name/"
-    tag: "/tag/:name/"
 
 #######################################################
 #######################################################

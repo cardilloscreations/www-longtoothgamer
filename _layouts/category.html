@@ -1,0 +1,54 @@
+---
+layout: page
+---
+
+{% if site.categories[page.category] %}
+
+  {% for post in site.categories[page.category] %}
+    <!-- Blog Article -->
+    <div class="post-full">
+      <article class="blog-article clearfix">
+
+        <!-- Article Header -->
+        <header class="article-header">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+          {% if post.youtubeid %}
+          <img src="https://img.youtube.com/vi/{{ post.youtubeid }}/maxresdefault.jpg"
+           alt="Article YouTube Thumbnail"
+           onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ post.youtubeid }}/mqdefault.jpg';">
+          {% else if post.image %}
+          <img src="images/blog/{{ post.image }}" alt="Archive Blog Image">
+          {% endif %}
+          </a>
+          <div class="article-title">
+            <h3 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            <h4 class="category">{{ post.categories | first }}</h4>
+          </div>
+        </header>
+
+        <!-- Article Content -->
+        <div class="article-content">
+          <div class="article-date text-center">
+            <div class="date parent">
+              <div class="date-wrap child-center">
+                <div class="day">{{ post.date | date: "%d" }}</div>
+                <div class="month">{{ post.date | date: "%b" }}</div>
+              </div>
+            </div>
+            <div class="year">{{ post.date | date: "%Y" }}</div>
+          </div>
+          <div class="article-text-md">
+            <p>{{ post.excerpt | strip_html | truncatewords:50 }}</p>
+          </div>
+          <div class="show-more">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a>
+          </div>
+        </div>
+
+      </article>
+    </div>
+  {% endfor %}
+
+{% else %}
+<p>There are currently no posts with the category: {{ page.category }}</p>
+{% endif %}

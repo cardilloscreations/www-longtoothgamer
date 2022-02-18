@@ -4,7 +4,7 @@ title:  'Secret iPhone Eye Glasses Hack'
 subtitle: "Shorts"
 date: 2022-02-16
 categories: [Mobile]
-tags: [iphone accessibility features,back tap iphone,magnifier,glasses,vision,eye sight,hack,tip,accessibility,iphone,ios,back tap,zoom,shorts,sight]
+tags: [ios, accessibility]
 youtubeid: JS4pYLgN9Bk
 ---
 

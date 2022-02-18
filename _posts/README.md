@@ -21,7 +21,8 @@ A collection of reminders when creating new posts.
 
 ## Categories
 
-The following categories should be considered a strict list because I don't want more to appear in the Category lists.
+The following categories are strict because I can't use the archive plugin on Jekyll pages.
+See the [./_pages/categories] directory for more.
 
 ### Gaming
 Posts that are about gaming (research, reviews, advice, etc).
@@ -38,20 +39,8 @@ Miscellaneous posts including general tech tips, etc.
 
 ## Tags
 
-These tags are just a starting point but represent reminders about some of the most common tags that might help people discover other posts.
+Tags are also strict because I can't use the archive plugin on Jekyll pages.
+See the [./_pages/tags] directory for more.
 
-- Security
-- Accessibility
-- Vision
-- Hearing
-- Gaming
-  - Game Review
-  - Social Game
-  - Puzzle Game
-  - Brain Game
-  - MMO / MMORPG
-- Computing
-  - Productivity
-  - Hardware
-- Mobile
-  - App Review
+I might add more as needed, but the idea is to help provide convenient access
+to topics that might be tangential to the overall category.

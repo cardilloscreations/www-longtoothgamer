@@ -4,7 +4,7 @@ title:  'What is B2P, P2P, F2P, P2W? What’s the best value?'
 subtitle: "Gaming Lingo Series"
 date: 2022-02-12
 categories: [Gaming]
-tags: [lingo,gamer,gaming,terms,definition,meaning,language,culture,git,game lingo,b2p,p2p,f2p,p2w,freemium,dlc,subscription,monetization,buy to play,pay to play,free to play,pay to win,whale,paywall,pay wall,best value]
+tags: [game lingo]
 youtubeid: UoICbqE8kLY
 ---
 
