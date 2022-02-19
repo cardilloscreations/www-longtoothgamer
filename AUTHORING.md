@@ -1,6 +1,7 @@
 # Authoring Content
 
-This website is based on a licensed copy of the Sera Jekyll Theme.
+This website is based on a licensed copy of the Sera Jekyll Theme. However, it
+has been highly customized at this point to better suit my needs.
 
 The instructions below are useful reminders but it's a fairly common workflow for any Jekyll based website.
 

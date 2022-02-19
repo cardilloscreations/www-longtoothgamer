@@ -8,10 +8,10 @@
     <!-- Page Loader -->
     <div id="page-loader" class="page-loader"><span class="load-icon"></span></div>
 
-    {% include header-page.html %}
+    {% include header/header-page.html current="Vlog" %}
 
     <!-- Page Section -->
-    <section class="site-section blog-section page-layout" id="start">
+    <section class="site-section vlog-section page-layout" id="start">
       <div class="container">
 
         <!-- Page Layout -->
@@ -25,7 +25,7 @@
           </div>
 
           <!-- Content -->
-          <div class="col-md-8 blog-articles-container">
+          <div class="col-md-8 vlog-articles-container">
 
             {{ content }}
 

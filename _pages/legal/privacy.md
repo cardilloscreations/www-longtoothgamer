@@ -1,9 +1,12 @@
 ---
-layout: legal
+layout: slim
 title: Privacy Policy
 date: 2022-02-05
 permalink: "/privacy"
 ---
+
+{% include last-updated.html %}
+<br/>
 
 <p>
   Thank you for visiting my website. I am an indie software developer and content creator, Raymond Cardillo of Cardillo's Creations, LLC (“<strong>Cardillo's Creations</strong>”, “<strong>I</strong>”, “<strong>my</strong>”,

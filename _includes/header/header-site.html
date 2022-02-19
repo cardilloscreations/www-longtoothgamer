@@ -1,0 +1,40 @@
+<!-- Site Header -->
+<header class="site-header parallax" id="home" data-scrollax-parent="true">
+
+<!-- Parallax Header Image -->
+<div class="parallax-wrapper">
+  <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
+    <img src="{{ site.baseurl }}/images/header-image.jpg" alt="{{ site.header-title }}" />
+  </div>
+</div>
+
+<div class="container">
+
+  {% include header/nav-bar.html current="Home" %}
+
+  <!-- Site Header Banner -->
+  <div class="row header-banner parent" data-scrollax="properties: { 'translateY': '48%', 'opacity': '1.4' }">
+
+    <div class="heading-content text-center child-center-v">
+
+      <!-- Heading Title -->
+      <div class="row heading-title">
+        <h2>{{ site.header-tagline }}</h2>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Arrow Down -->
+  <div class="row arrow-down-section" data-scrollax="properties: { 'opacity': '0.6' }">
+    <div class="wrapper-arrow child-center">
+      <a href="#about" class="arrow-down">
+        <i class="pe-7s-angle-down"></i>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+</header>

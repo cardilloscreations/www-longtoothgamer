@@ -5,9 +5,9 @@ layout: page
 {% if site.tags[page.tag] %}
 
   {% for post in site.tags[page.tag] %}
-    <!-- Blog Article -->
+    <!-- Vlog Article -->
     <div class="post-full">
-      <article class="blog-article clearfix">
+      <article class="vlog-article clearfix">
 
         <!-- Article Header -->
         <header class="article-header">
@@ -17,7 +17,7 @@ layout: page
            alt="Article YouTube Thumbnail"
            onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ post.youtubeid }}/mqdefault.jpg';">
           {% else if post.image %}
-          <img src="images/blog/{{ post.image }}" alt="Archive Blog Image">
+          <img src="images/vlog/{{ post.image }}" alt="Archive Vlog Image">
           {% endif %}
           </a>
           <div class="article-title">

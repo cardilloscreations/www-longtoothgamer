@@ -1,5 +1,5 @@
-<!-- Blog Section -->
-<section class="site-section blog-section" id="blog">
+<!-- Vlog Section -->
+<section class="site-section vlog-section" id="vlog">
   <div class="container">
 
     <!-- Section Heading -->
@@ -7,13 +7,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.blog-title }}</h2>
+        <h2>{{ site.vlog-title }}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>This blog is a companion to my corresponding
+        <p>This vlog is a companion to my corresponding
           <a href="{{ site.youtube }}" target="_blank"><b>Long Tooth Gamer</b></a>
           YouTube channel, which focuses on helping older adults learn to embrace and
           enjoy computers, technology, and gaming.
@@ -22,15 +22,15 @@
 
     </div>
 
-    <!-- Blog Articles Container -->
-    <div class="row blog-articles-container">
+    <!-- Vlog Articles Container -->
+    <div class="row vlog-articles-container">
 
       <!-- Jekyll LOOP -->
       {% for post in site.posts limit:3 %}
 
-      <!-- Blog Article -->
+      <!-- Vlog Article -->
       <div class="col-md-4 col-md-push-0 col-sm-10 col-sm-push-1 col-xs-10 col-xs-push-1">
-        <article class="blog-article clearfix">
+        <article class="vlog-article clearfix">
 
           <!-- Article Header -->
           <header class="article-header">
@@ -41,7 +41,7 @@
                alt="Article YouTube Thumbnail"
                onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ post.youtubeid }}/maxresdefault.jpg';">
               {% else if post.image %}
-              <img src="images/blog/{{ post.image }}" alt="Article Blog Image">
+              <img src="images/vlog/{{ post.image }}" alt="Article vlog Image">
               {% endif %}
               </a>
             </div>
@@ -81,7 +81,7 @@
     <!-- View All Posts CTA -->
     <div class="row view-posts text-center">
       <hr class="normal">
-      <a href="blog.html" class="button-cta button-focus col-md-3 col-sm-5 col-xs-8">View all posts</a>
+      <a href="vlog.html" class="button-cta button-focus col-md-3 col-sm-5 col-xs-8">View all posts</a>
     </div>
 
   </div>

@@ -1,6 +1,8 @@
 ---
 layout: youtube-post
-title:  'What is B2P, P2P, F2P, P2W? What’s the best value?'
+title:  >
+  What is B2P, P2P, F2P, P2W?<br/>
+  What’s the best value?
 subtitle: "Gaming Lingo Series"
 date: 2022-02-12
 categories: [Gaming]

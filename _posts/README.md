@@ -1,4 +1,4 @@
-# Notes on Blog Posts
+# Notes on Vlog Posts
 
 A collection of reminders when creating new posts.
 
@@ -14,7 +14,7 @@ A collection of reminders when creating new posts.
 
 ## Resources
 
-- **/images/blog/** - contains the post header image and I will name them after the post so they're consistent.
+- **/images/vlog/** - contains the post header image and I will name them after the post so they're consistent.
 - **/assets/** - contains any additional images or resources that are being hosted and served for the post.
 - **embedded** - most posts will also have a YouTube video embedded but will not be hosted here.
 

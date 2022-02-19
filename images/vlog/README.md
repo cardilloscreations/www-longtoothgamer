@@ -1,4 +1,4 @@
-# Notes on Blog Images
+# Notes on Vlog Images
 
 1. YouTube posts are specially formatted now and uses the thumbnail from the
 YouTube imaging service API instead.

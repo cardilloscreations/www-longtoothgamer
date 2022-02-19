@@ -6,6 +6,12 @@
 # Information for compile
 exclude: ["Gemfile", "CNAME", "LICENSE", "README.md", "AUTHORING.md"]
 
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
 # Sass configuration
 sass:
   sass_dir: _scss
@@ -49,13 +55,14 @@ facebook: "https://www.facebook.com/LongToothGamer/"
 instagram: "https://www.instagram.com/longtoothgamer/"
 twitter: "https://twitter.com/longtoothgamer"
 tiktok: "https://www.tiktok.com/@longtoothgamer"
+pinterest: "https://www.pinterest.com/LongToothGamer"
 
 #########################
 ######   Widgets   ######
 #########################
 
 #
-# About Blog Author Widget
+# About Vlog Author Widget
 #
 about-widget:
   author-avatar: Ray-Headshot-Simple.jpg
@@ -82,9 +89,9 @@ about-description-long: >
   and counting. I particularly enjoy helping senior adults embrace technology.
 
 #####################################
-############# Our Blog ##############
+############# Vlog ##############
 #####################################
-blog-title: My Blog
+vlog-title: My Vlog
 
 #####################################
 #############   Footer   ############

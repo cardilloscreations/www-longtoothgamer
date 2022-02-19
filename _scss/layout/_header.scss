@@ -13,20 +13,37 @@ header.site-header {
   max-height: 1080px;
   z-index: 1;
 
-  // Blog Header
-  &.blog-header {
-    height: 600px;
+  // vlog Header
+  &.vlog-header {
+    height: 500px;
 
     .parallax-wrapper {
-      height: 600px;
+      height: 500px;
     }
 
     .container {
-      height: 600px;
+      height: 500px;
     }
 
     .header-banner {
-      height: calc(600px - 250px);
+      height: calc(500px - 150px);
+    }
+  }
+
+  // vlog Header
+  &.slim-header {
+    height: 300px;
+
+    .parallax-wrapper {
+      height: 300px;
+    }
+
+    .container {
+      height: 300px;
+    }
+
+    .header-banner {
+      height: calc(300px - 150px);
     }
   }
 

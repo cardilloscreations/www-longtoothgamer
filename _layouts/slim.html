@@ -8,21 +8,15 @@
   <!-- Page Loader -->
   <div id="page-loader" class="page-loader"><span class="load-icon"></span></div>
 
-  {% include header-page.html %}
+  {% include header/header-slim.html %}
 
   <!-- Page Section -->
-  <section class="site-section blog-section page-layout" id="start">
+  <section class="site-section page-layout" id="start">
     <div class="container">
 
       <!-- Page Layout -->
-      <div class="row">
+      {{ content }}
 
-        <p><strong>Last updated on {{ page.date | date: '%B %d, %Y' }}</strong></p>
-        <br />
-
-        {{ content }}
-
-      </div>
     </div>
   </section>
 

@@ -10,6 +10,35 @@
   display: inline-block;
   font-size: 2.5rem;
 
+  ol.icons {
+
+    list-style: none;
+    margin-left: 1.0rem;
+
+    li:not(:last-child) {
+        margin-bottom: 0.8rem;
+    }
+
+    sup {
+      font-size: 50%;
+      vertical-align: super;
+    }
+
+    &.global-text-color-icons {
+      li {
+
+        a {
+          color: $global-text;
+
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+
+  }
+
   ul.icons {
 
     &.global-text-color-icons {

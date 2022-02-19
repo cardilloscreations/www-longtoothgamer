@@ -1,9 +1,12 @@
 ---
-layout: legal
+layout: slim
 title: Terms of Use
 date: 2022-02-05
 permalink: "/terms"
 ---
+
+{% include last-updated.html %}
+<br/>
 
 <p><strong>AGREEMENT TO TERMS</strong></p>
 <p>

@@ -1,14 +1,18 @@
 ---
 layout: page
-tagline: Just
-title: Long Tooth Gamer <strong>Blog</strong>
+title: The <strong>Vlog</strong>
+subtitle: Published video content
+menu: Vlog
+redirect_from:
+  - /blog
+  - /blog/
 ---
 
 {% for post in site.posts %}
 
-  <!-- Blog Article -->
+  <!-- Vlog Article -->
   <div class="post-full">
-    <article class="blog-article clearfix">
+    <article class="vlog-article clearfix">
 
       <!-- Article Header -->
       <header class="article-header">
@@ -19,7 +23,7 @@ title: Long Tooth Gamer <strong>Blog</strong>
            alt="Article YouTube Thumbnail"
            onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ post.youtubeid }}/sddefault.jpg';">
           {% else if post.image %}
-          <img src="images/blog/{{ post.image }}" alt="Article Blog Image">
+          <img src="images/vlog/{{ post.image }}" alt="Article Vlog Image">
           {% endif %}
           </a>
         </div>
