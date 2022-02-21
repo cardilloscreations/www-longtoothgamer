@@ -1,16 +1,65 @@
 <!-- Site Head -->
 <head>
+  {%- comment -%} General Metadata {% endcomment %}
   <meta charset="utf-8" />
   <title>{{ page.title | strip_html }}</title>
+  <meta name="title" content="{{ page.title | strip_html }}">
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
-  <!-- Importing Styles -->
+  {%- comment -%} Special Variables {% endcomment %}
+  {%- capture page_description -%}
+    {%- if page.description -%}
+      {{ page.description }}
+    {%- elsif page.excerpt -%}
+      {{ page.excerpt | strip_html }}
+    {%- else -%}
+      {{ site.title }} - {{ site.tagline }}
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- capture page_image -%}
+    {%- if page.youtubeid -%}
+      https://img.youtube.com/vi/{{ page.youtubeid }}/maxresdefault.jpg
+    {%- elsif page.image -%}
+      {{ site.url }}{{ site.baseurl }}/images/vlog/{{ page.image }}
+    {%- endif -%}
+  {%- endcapture -%}
+
+  {% unless page_image == empty %}
+  <link rel="image_src" href="{{ page_image }}">
+  {% endunless %}
+
+  {%- comment -%} Open Graph Metadata {% endcomment %}
+  <meta property="og:locale" content="{{ site.lang | replace: "-", "_" }}" />
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:title" content="{{ page.title }}">
+  {% unless page_description == empty %}
+  <meta property="og:description" content="{{ page_description | strip_newlines | truncatewords:200 }}">
+  {% endunless %}
+  {%- unless page_image == empty -%}
+  <meta property="og:image" content="{{ page_image }}">
+  {% endunless %}
+  {%- if page.youtubeid -%}
+  <meta property="og:video" content="https://youtu.be/{{ page.youtubeid }}">
+  {% endif %}
+
+  {%- comment -%} Twitter Metadata {% endcomment %}
+  <meta name="twitter:site" content="{{ site.twitter | split: '/' | last }}">
+  <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  {% unless page_description == empty %}
+  <meta name="twitter:description" content="{{ page_description | strip_newlines | truncatewords:200 }}">
+  {% endunless %}
+  {%- unless page_image == empty -%}
+  <meta name="twitter:image" content="{{ page_image }}">
+  {% endunless %}
+
+  {%- comment -%} Importing Style Sheets {% endcomment %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 
-  <!-- various forms of favicons !-->
-  <!-- see: https://realfavicongenerator.net/ !-->
+  {% comment %} Various forms of favicons. see: https://realfavicongenerator.net/ {% endcomment %}
   <link rel="icon" sizes="any" type="image/svg+xml" href="/images/favicon/favicon.svg?v=20220130">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=20220130">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=20220130">
@@ -22,10 +71,11 @@
   <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png?v=20220130">
   <meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=20220130">
   <meta name="theme-color" content="#ffffff">
-  
-  <!-- Font Awesome Kit Reference -->
+
+  {% comment %} Font Awesome Kit {% endcomment %}
   <script src="https://kit.fontawesome.com/b37559d3ba.js" crossorigin="anonymous"></script>
 
+  {% comment %} Include Google Scripts {% endcomment %}
   {% include google-analytics.html %}
   {% include google-adsense.html %}
 </head>

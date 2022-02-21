@@ -11,7 +11,7 @@ youtubeid: m5qB1VxpSkI
 ---
 
 <p class="premono" markdown="1">
-Learn about PvE (PvM), PvP, PvX, Griefers, Ganking, and Care Bears. I describe the meaning of these terms, how they relates to your game play, and how to avoid getting frustrated.
+Learn about PvE (PvM), PvP, PvX, Griefers, Ganking, and Care Bears. I describe the meaning of these terms, how they relate to your game play, and how to avoid getting frustrated.
 
 This is a quick explainer video that is part of my [Game Lingo Series Playlist](https://youtube.com/playlist?list=PLYTW1X-dTQ4RXDsasjPU2HEM5BZ2s5cu4).
 

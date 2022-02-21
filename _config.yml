@@ -37,12 +37,15 @@ smooth-scroll: false
 
 # This is your site title
 title: Long Tooth Gamer
+
 # Website language
 lang: en-US
+
+# Site Tagline
+tagline: Technology and Gaming Info for Sensible Adults
+
 # Header Title
 header-title: Long Tooth Gamer
-# Header Tagline
-header-tagline: Technology and Gaming Info for Sensible Adults
 
 # Main contact email address
 email: hello@longtoothgamer.com

@@ -22,7 +22,7 @@ redirect_from:
           <img src="https://img.youtube.com/vi/{{ post.youtubeid }}/maxresdefault.jpg"
            alt="Article YouTube Thumbnail"
            onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ post.youtubeid }}/sddefault.jpg';">
-          {% else if post.image %}
+          {% elsif post.image %}
           <img src="images/vlog/{{ post.image }}" alt="Article Vlog Image">
           {% endif %}
           </a>
