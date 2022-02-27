@@ -2,7 +2,7 @@
 layout: youtube-post
 title:  'Confused by Game Lingo? Start Here.'
 subtitle: "Gaming Lingo Series"
-date: 2022-02-26
+date: 2022-02-26 10:00:00
 categories: [Gaming]
 tags: [game lingo]
 youtubeid: SdgdAEbC0Gs
