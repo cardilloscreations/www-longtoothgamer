@@ -1,8 +1,8 @@
 ---
 layout: youtube-post
 title:  'Hidden Samsung Eye Glass App'
-subtitle: "Shorts"
-date: 2022-02-17
+subtitle: 'Shorts'
+date: 2022-02-16
 categories: [Mobile]
 tags: [android, accessibility]
 youtubeid: TE-_TzJPEtI

@@ -3,8 +3,8 @@ layout: youtube-post
 title: >
   What Does "Git Gud" Mean?<br/>
   Why is it Controversial?
-subtitle: "Gaming Lingo Series"
-date: 2022-02-10
+subtitle: 'Gaming Lingo Series'
+date: 2022-02-06
 categories: [Gaming]
 tags: [game lingo]
 youtubeid: 3bWEaFuknMM

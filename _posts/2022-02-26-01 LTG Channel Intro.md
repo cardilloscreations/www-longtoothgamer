@@ -1,8 +1,8 @@
 ---
 layout: youtube-post
 title:  'What or Who is Long Tooth Gamer?'
-subtitle: "Welcome"
-date: 2022-02-26 11:00:00
+subtitle: 'Welcome'
+date: 2022-02-26
 categories: [Misc]
 tags: [general]
 youtubeid: 92YZyRYJCak

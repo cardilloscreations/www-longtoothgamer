@@ -1,7 +1,7 @@
 ---
 layout: youtube-post
 title:  'Secret iPhone Eye Glasses Hack'
-subtitle: "Shorts"
+subtitle: 'Shorts'
 date: 2022-02-16
 categories: [Mobile]
 tags: [ios, accessibility]

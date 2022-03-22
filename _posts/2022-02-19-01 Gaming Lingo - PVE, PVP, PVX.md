@@ -3,7 +3,7 @@ layout: youtube-post
 title:  >
   What is PvE (PvM), PvP, PvX?<br/>
   Griefers Ganking for Care Bear Tears?
-subtitle: "Gaming Lingo Series"
+subtitle: 'Gaming Lingo Series'
 date: 2022-02-19
 categories: [Gaming]
 tags: [game lingo]

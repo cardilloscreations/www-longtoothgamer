@@ -1,8 +1,8 @@
 ---
 layout: youtube-post
 title:  'How to Use TouchScreen with Damaged Skin?'
-subtitle: "Welcome"
-date: 2022-02-27 11:00:00
+subtitle: 'Tech Tips'
+date: 2022-02-27
 categories: [Misc, Mobile]
 tags: [general, ios, android]
 youtubeid: 1_IHe62IEFM
