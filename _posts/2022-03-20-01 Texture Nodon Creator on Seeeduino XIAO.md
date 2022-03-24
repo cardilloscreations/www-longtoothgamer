@@ -20,6 +20,8 @@ GitHub Project Landing Page
   🛒 <https://amzn.to/3L5gbHa>
   Anker Certified USB-C Data Transfer Cable
   🛒 <https://amzn.to/3L6sy5I>
+  DockCase USB-C Data Transfer Cable (0.7 ft)
+  🛒 <https://amzn.to/3L0O1NE>
   ELEGOO Breadboard Kit - lots of uses and great value
   🛒 <https://amzn.to/3N93GfI>
   𝘈𝘴 𝘢𝘯 𝘈𝘮𝘢𝘻𝘰𝘯 𝘈𝘴𝘴𝘰𝘤𝘪𝘢𝘵𝘦 𝘐 𝘦𝘢𝘳𝘯 𝘧𝘳𝘰𝘮 𝘲𝘶𝘢𝘭𝘪𝘧𝘺𝘪𝘯𝘨 𝘱𝘶𝘳𝘤𝘩𝘢𝘴𝘦𝘴.
